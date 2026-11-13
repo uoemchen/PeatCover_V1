@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper and the dataset."
+title: "PeatCover: code and data of the 90 m peatland map of the northern high latitudes"
+type: software
+license: MIT
+version: "1.0.0"
+date-released: "2026-11-13"
+repository-code: "https://github.com/uoemchen/PeatCover_V1"
+authors:
+  - given-names: Man
+    family-names: Chen
+    affiliation: "LIRA, Observatoire de Paris, Sorbonne Université; Estellus"
+  - given-names: Philippe
+    family-names: Ciais
+    affiliation: "Laboratoire des Sciences du Climat et de l'Environnement (LSCE)"
+  - given-names: Gustaf
+    family-names: Hugelius
+    affiliation: "Department of Physical Geography and Bolin Centre for Climate Research, Stockholm University"
+  - given-names: Filipe
+    family-names: Aires
+    affiliation: "LIRA, Observatoire de Paris, Sorbonne Université; Estellus"
+preferred-citation:
+  type: article
+  title: "PeatCover: Towards a 90 m peatland map of the northern high latitudes using satellite remote sensing and a priori inventories"
+  journal: "Earth System Science Data Discussions"
+  doi: "10.5194/essd-2026-254"
+  authors:
+    - given-names: Man
+      family-names: Chen
+    - given-names: Philippe
+      family-names: Ciais
+    - given-names: Gustaf
+      family-names: Hugelius
+    - given-names: Filipe
+      family-names: Aires
