@@ -13,7 +13,7 @@ The maps (binary peatland map and Peatland Index, GeoTIFF) are on Zenodo: https:
 |---|---|
 | `1_inputs/` | The 18 inputs on the 5 x 5 deg tile grid (Landsat 8, MERIT DEM / Hydro, water table depth, OPERA inundated vegetation) and the reference peat fraction of each tile |
 | `2_labels/` | Training labels from the a priori inventories, training data of the Canadian regression network |
-| `3_training/` | Training of the networks (MATLAB) |
+| `3_training/` | Training of the networks |
 | `4_mapping/` | Peatland Index, downscaling and binary maps of Eurasia and North America |
 | `5_evaluation/` | Cross-validation and map accuracy |
 | `data/` | Training labels, evaluation points, per-tile thresholds and trained networks |
@@ -37,13 +37,6 @@ in the paper.
 - MATLAB R2022b with the Deep Learning Toolbox and the Mapping Toolbox; `inpoly2` (https://github.com/dengwirda/inpoly)
 - Environment variables: `PEATCOVER_ROOT` (data root), `PEATCOVER_WORK` (intermediate files), `MERIT_DIR`, `WTD_DIR`
 
-## Example
-
-Accuracy of the binary map from Zenodo with the field observations:
-
-```bash
-python 5_evaluation/05_map_accuracy.py --map PeatCover.tif
-```
 
 ## Licence
 
